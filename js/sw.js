@@ -1,4 +1,4 @@
-let staticCacheName = 'alc-static-v3';
+let staticCacheName = 'alc-static-v1';
  const toCache = [
   '../',
   '../index.html',
