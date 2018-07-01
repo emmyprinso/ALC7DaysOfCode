@@ -1,0 +1,92 @@
+@import 'https://fonts.googleapis.com/css?family=Alegreya+Sans';
+@import 'https://fonts.googleapis.com/css?family=Tangerine';
+@import 'css/font-awesome.min.css';
+@import 'https://fonts.googleapis.com/css?family=Rancho&effect=shadow-multiple';
+
+*{
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+
+body{
+	background-color: #F5F5F5;
+	color: #67727A;
+	font-family: 'Tangerine', serif;
+	margin: 0;
+	color: rgb(180, 80, 21);
+}
+
+h1{
+	font-family: 'Tangerine', serif;
+	text-shadow: 4px 4px 4px rgb(206, 197, 69);
+	font-size: 400%;
+	font-weight: 1000;
+	text-align: center;
+	padding-top: 2%;
+	padding-bottom: 2%;
+	color: rgb(180, 80, 21);
+	clear: both;
+}
+
+.sideFlow{
+	font-family: 'Alegreya', sans-serif;
+	text-shadow: 4px 4px 4px rgb(206, 197, 69);
+	font-size: 400%;
+	font-weight: 1000;
+	text-align: center;
+	color: rgb(255, 255, 255);
+	width: 50%;
+	clear: both;
+	
+	background-color: red;
+} 
+
+#fromDiv{
+	float: left;
+}
+#toDiv{
+	float: right;
+}
+
+h3{
+	font-size: 175%;
+	line-height: 155%;
+	padding: 5% 0;
+	font-weight: 400;
+	color: #F5F5F5;
+}
+
+h4{
+	font-size: 175%;
+	padding: 2px 0;
+	font-weight: 400;
+	color: #F5F5F5;
+}
+
+.containerDiv{
+	text-align-last: center;
+	padding-top: 5%;
+	width: 80%;
+	height: 500px;
+	margin: auto;
+	background-color: #67727A;
+	border: 2px solid rgb(180, 80, 21);
+}
+
+.formDiv{
+	width: 100%;
+	margin: 10% 0%;
+	clear: both;
+}
+
+.sizeForm{
+	height: 50px;
+}
+
+
+
+
+@media screen and (max-width: 980px){
+
+}

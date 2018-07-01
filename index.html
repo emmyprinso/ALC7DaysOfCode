@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Emmanuel Ajaero ALC Currency Converter</title>
+        <link rel="stylesheet" type="text/css" href="css/style.css" />	
+</head>
+<body>
+<h1>Currency Converter</h1>
+
+<div class="containerDiv">
+        <div style="font-size: 500%; font-weight: 1000; padding-bottom: 3%;" class="font-effect-shadow-multiple">Start conversion here</div>
+
+
+     <!-- WHERE THE AMOUNTS WILL BE DISPLAYED -->   
+    <div id="fromDiv" class="sideFlow">
+        $1
+    </div>
+    
+    <h1>TO</h1>
+    
+    <div id="toDiv" class="sideFlow">
+        #370
+    </div>
+    <!-- END OF AMOUNT SECTION --> 
+
+    <!-- THE DIV HOLDING THE FORM --> 
+    <div class="formDiv">
+            <form method="GET" id="formContent">
+                    <input type="number" name="fromAmount" value="1" id="fromAmount" class="sizeForm" onchange="changeText(this)">
+                    <select name="fromCurrency" id="fromCurrency" class="sizeForm" onchange="changeText(this)">
+                        <option value="fromCur">fromCur</option>
+                        <option value="one">one</option>
+                        <option value="two">two</option>
+                        <option value="three">three</option>
+                    </select>
+                
+                    <strong class="formAreaTest">&#10095;</strong>
+                
+                    <input type="number" name="toAmount" value="1" id="toAmount" class="sizeForm" onchange="changeText(this)">
+                    <select name="toCurrency" id="toCurrency" class="sizeForm" onchange="changeText(this)">
+                        <option value="toCur">toCur</option>
+                    </select>
+                </form>
+    </div>
+    <!-- END OF FORM DIV --> 
+    
+
+
+</div>
+
+
+<div style="font-size: 300%" class="font-effect-shadow-multiple">This is a font effect!</div>
+<p>This is a paragraph.</p>
+
+
+
+
+
+
+
+
+
+
+</body>
+
+<script src="index.js"></script>
+<script src="idb.js"></script>
+</html>
