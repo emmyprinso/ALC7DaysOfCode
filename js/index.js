@@ -8,7 +8,7 @@ let serviceReg = () =>{
   });
 }
 
-serviceReg();
+
 console.log("servive worker controller state", navigator.serviceWorker.controller);
 
 
