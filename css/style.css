@@ -39,7 +39,7 @@ h1{
 	width: 50%;
 	clear: both;
 	
-	background-color: red;
+	/*background-color: red;*/
 } 
 
 #fromDiv{
@@ -84,8 +84,12 @@ h4{
 	height: 50px;
 }
 
-
-
+#fromCurrency{
+	width: 20%;
+}
+#toCurrency{
+	width: 20%;
+}
 
 @media screen and (max-width: 980px){
 
